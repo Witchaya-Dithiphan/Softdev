@@ -1,0 +1,68 @@
+@import 'tailwindcss';
+
+@font-face {
+  font-family: 'Inter:Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: url('https://static.figma.com/font/Inter_1') format('woff2');
+}
+@font-face {
+  font-family: 'Inter:Light';
+  font-style: normal;
+  font-weight: 300;
+  src: url('https://static.figma.com/font/Inter_1') format('woff2');
+}
+@font-face {
+  font-family: 'Inter:Medium';
+  font-style: normal;
+  font-weight: 500;
+  src: url('https://static.figma.com/font/Inter_1') format('woff2');
+}
+@font-face {
+  font-family: 'Inter:Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url('https://static.figma.com/font/Inter_1') format('woff2');
+}
+@font-face {
+  font-family: 'Inter:Semi Bold';
+  font-style: normal;
+  font-weight: 600;
+  src: url('https://static.figma.com/font/Inter_1') format('woff2');
+}
+@font-face {
+  font-family: 'Noto Sans Thai:Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: url('https://static.figma.com/font/NotoSansThai-VF_2') format('woff2');
+}
+@font-face {
+  font-family: 'Noto Sans Thai:Light';
+  font-style: normal;
+  font-weight: 300;
+  src: url('https://static.figma.com/font/NotoSansThai-VF_2') format('woff2');
+}
+@font-face {
+  font-family: 'Noto Sans Thai:Medium';
+  font-style: normal;
+  font-weight: 500;
+  src: url('https://static.figma.com/font/NotoSansThai-VF_2') format('woff2');
+}
+@font-face {
+  font-family: 'Noto Sans Thai:Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url('https://static.figma.com/font/NotoSansThai-VF_2') format('woff2');
+}
+@font-face {
+  font-family: 'Noto Sans Thai:SemiBold';
+  font-style: normal;
+  font-weight: 600;
+  src: url('https://static.figma.com/font/NotoSansThai-VF_2') format('woff2');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter:Regular', 'Noto Sans Thai:Regular', sans-serif;
+}
