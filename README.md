@@ -7,6 +7,7 @@ A Thai-language dormitory management frontend built with React 19, TypeScript, V
 - Node.js 22.12 or newer (Node.js 22 is configured in `.mise.toml`).
 - pnpm 10; the project toolchain specifies pnpm 10.34.3.
 - Git.
+- Git LFS (used for binary assets). After installing it, run `git lfs install` once before cloning.
 
 If pnpm is not installed:
 
@@ -19,6 +20,7 @@ npm install --global pnpm@10.34.3
 ```sh
 git clone https://github.com/Witchaya-Dithiphan/Softdev.git
 cd Softdev
+git lfs pull
 pnpm install --frozen-lockfile
 pnpm dev
 ```
